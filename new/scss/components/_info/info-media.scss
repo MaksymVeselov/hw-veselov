@@ -1,0 +1,28 @@
+@media (max-width: 768px){
+   .info{
+      .info-container{
+         .button{
+            a{
+               bottom: 6%;
+            }
+         }
+         .info-row{
+            padding-bottom: 135px;
+            &::after{
+               display: none;
+            }
+         p{
+            display: none;
+         }
+         .midle-info{
+            .second-info{
+               display: none;
+            }
+         }
+         .right-info{
+            display: none;
+         }
+      }
+      }
+   }
+}

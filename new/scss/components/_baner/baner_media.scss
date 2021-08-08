@@ -1,0 +1,10 @@
+@media (max-width: 768px){
+   .baner{
+      overflow-x: hidden;
+      .center-content{
+         &::before{
+            display: none;
+         }
+      }
+   }
+}

@@ -1,0 +1,21 @@
+@media (max-width: 768px){
+  .about-we{
+     .row-carusel{
+        position: relative;
+        .foto-text{
+           h6{
+             padding: 60px 0 0 130px;
+           }
+           p{
+              padding-left: 130px;
+           }
+        }
+        .foto{
+           position: absolute;
+           bottom: 0;
+           border-radius: 50%;
+           width: 25%;
+        }
+     }
+  } 
+}
